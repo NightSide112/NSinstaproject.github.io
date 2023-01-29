@@ -1,0 +1,174 @@
+
+/*Post*/
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin-top: 16px;
+    height: fit-content;
+    box-sizing: border-box;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 6px;
+    box-shadow: 0px 0 1px 0px rgb(215, 215, 215);
+  }
+  .post img {
+    width: 40px;
+  }
+  .post p {
+    font-size: 14px;
+  }
+  .post-account {
+    display: flex;
+    flex-direction: row;
+    height: 58px;
+  }
+  .account-profile {
+    width: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .account-profile .profile {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 33px;
+    border: 3px solid pink;
+  }
+  .account-profile .profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 23px;
+    object-fit: cover;
+  }
+  .account-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    height: 100%;
+  }
+  .account-details div {
+    height: 21px;
+    box-sizing: border-box;
+  }
+  .account-name p {
+    color: rgb(45, 45, 45);
+    font-weight: 500;
+    margin: 4px 0 0 0;
+  }
+  .account-bio p {
+    color: rgb(38, 38, 38);
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 4px;
+  }
+  .account-details div:not(.account-name) p {
+    font-size: 10px;
+  }
+  .more-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 100%;
+  }
+  .more-options img {
+    width: 14px;
+    height: 14px;
+  }
+  .post-video-box {
+    height: 587.5px;
+    position: relative;
+  }
+  .post-video-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mute-icon-box {
+    background-color: rgb(38, 38, 38);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+  }
+  .mute-icon-box img {
+    width: 16px;
+    height: 16px;
+  }
+  .post-bottom-section div:not(.post-bottom-section div div, .add-comment) {
+    margin-left: 8px;
+  }
+  .post-buttons {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-buttons, .right-buttons {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+  }
+  .right-buttons {
+    margin-right: 10px;
+  }
+  .post-buttons img {
+    margin: 12px 8px 8px 0;
+  }
+  .like-count {
+    margin: 8px 0;
+  }
+  .name-in-description {
+    color:rgb(45, 45, 45);
+    font-weight: 500;
+  }
+  .more {
+    color: rgb(143, 143, 143);
+  }
+  .comment-count p {
+    color: rgb(143, 143, 143);
+    margin: 12px 0;
+  }
+  .post-date p {
+    color: rgb(143, 143, 143);
+    margin: 8px 0;
+    font-size: 10px;
+  }
+  .add-comment {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(210, 210, 210);
+  }
+  .emoji-icon {
+    width: 24px;
+    padding: 8px 8px 8px 0;
+    margin-left: 12px;
+  }
+  .add-comment input {
+    display: flex;
+    flex: 1;
+    border: 0;
+  }
+  .add-comment input:focus {
+    outline-width: 0;
+  }
+  .post-comment {
+    width: 27.18px;
+    height: 40px;
+    margin: 15px 16px 15px 0px;
+    color: rgb(138, 222, 255);
+    font-family: 'roboto', Arial;
+  }

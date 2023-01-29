@@ -1,0 +1,118 @@
+#switch-account {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 66px;
+    margin: 19px 0 10px 0;
+}
+#account-profile {
+    display: flex;
+    align-items: center;
+    width: 66px;
+    height: 100%;
+}
+#account-profile img {
+    width: 56px;
+    height: 56px;
+    margin-left: 0px;
+    border-radius: 38px;
+    object-fit: cover;
+}
+#account-details {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    padding-top: 4px;
+}
+#account-details p {
+    font-size: 14px;
+    margin-left: 6px;
+    line-height: 18px;
+}
+#account-name {
+    color: rgb(66, 66, 66);
+    font-weight: 500;
+}
+#account-bio {
+    color: rgb(166, 166, 166);
+}
+#switch {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 149, 246);
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 28px;
+}
+#suggestions-texts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+#suggestions-texts p {
+    margin: 0 0 0 -4px;
+    display: inline-block;
+}
+#SFY-text {
+    color: rgb(142, 142, 142);
+    font-weight: 500;
+    font-size: 14px;
+}
+#see-all-text {
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+    font-size: 12px;
+}
+#suggestions-bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+.suggestions-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 32px;
+    margin-bottom: 16px;
+}
+.suggestioned-account-profile {
+    width: 42px;
+    height: 100%;
+}
+.suggestioned-account-profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.suggestioned-account-details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 2px;
+    height: 100%;
+}
+.suggestioned-account-details p {
+    display: inline-block;
+    line-height: 18px;
+    margin: 0;
+}
+.suggestioned-account-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(65, 65, 65);
+}
+.suggestioned-account-follow-check {
+    font-size: 12px;
+    color: rgb(165, 165, 165);
+}
+.follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(0, 149, 246);
+}

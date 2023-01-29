@@ -1,0 +1,104 @@
+/* This Is The Sidebar Codes */
+#sidebar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 243px;
+    border-right: 1px solid rgb(220, 220, 220);
+    box-sizing: border-box;
+    padding: 8px 12px 20px 12px;
+  }
+  #sidebar div{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  #sidebar div:not(#create) {
+    padding-left: 10px;
+  }
+  #sidebar div:not(#instagram-logo-box) {
+    border-radius: 24px;
+    margin-bottom: 10px;
+  }
+  #sidebar div:hover:not(#instagram-logo-box) {
+    background-color: rgba(245, 245, 245, 0.5);
+    transition: background-color 0.2s;
+  }
+  #sidebar div:hover {
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  #sidebar div:not(#create) p {
+    margin-left: 16px;
+  }
+  #instagram-logo-box {
+    margin-top: 22px;
+    margin-right: 12px;
+    margin-left: 0px;
+    margin-bottom: 33px;
+    box-sizing: border-box;
+    padding: 0;
+    width: 205px;
+  }
+  #instagram-logo {
+    width: 110px;
+  }
+  #home {
+    padding-left: 8px;
+  }
+  #home img{
+    width: 30px;
+  }
+  #home p {
+    font-weight: 700;
+  }
+  #search {
+    width: 25px;
+  }
+  #explore {
+    width: 25px;
+  }
+  #reels {
+    width: 30px;
+  }
+  #messages {
+    width: 24px;
+  }
+  #notifications {
+    width: 24px;
+  }
+  #notifications-alarm {
+    background-color: red;
+    width: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #create img {
+    width: 50px;
+  }
+  #create {
+    padding-left: 0;
+    margin-left: -2px;
+  }
+  #create p {
+    margin-left: 0;
+  }
+  #profile {
+    width: 25px;
+    border-radius: 25px;
+  }
+  #more {
+    margin-top: 140px;
+  }
+  #more img {
+    width: 23px;
+  }
